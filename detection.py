@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 
+
 cap = cv2.VideoCapture(0)
 #use trained xml
 face_cascade=cv2.CascadeClassifier('face.xml')
